@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://fonts.googleapis.com/css?family=Montez" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Mystery+Quest" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script type="text/javascript" src="js/jquery-1.7.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.7.1.custom.min.js"></script>
+    
+        <title>Memotest</title>
+  </head>
+  <body>
+    <!--<div id="menu"></div>-->
+    <div class="container">
+      <div class="instrucciones">
+        <header><h1>Memotest de las maravillas del mundo</h1></header>
+        <div class="row">
+          <div class="col-9">
+        <div id="jugador"><p>¿Es la primera vez que jugas?:<p></div><input type="text" name="input" id="input"></input> <button onclick="onclick()">Submmit</button>
+        <p id="demo"></p>
+        <p>Instrucciones:<br>
+          Hace click en una imagen <br>
+          Busca otra imagen identica en el tablero <br>
+          Forma todos los pares que encuentres en el menor tiempo posible. <br> 
+         
+        </p>
+      </div>
+
+      <div class="imagenes">
+
+        <div class="deck" id="card-deck">
+          <img class="ficha" id="0" src="img/back.jpg">
+          <img class="ficha" id="1" src="img/back.jpg">
+          <img class="ficha" id="2" src="img/back.jpg">
+          <img class="ficha" id="3" src="img/back.jpg">
+        </div>
+
+        <div class="secondRow">
+          <img class="ficha" id="4" src="img/back.jpg">
+          <img class="ficha" id="5" src="img/back.jpg">
+          <img class="ficha" id="6" src="img/back.jpg">
+          <img class="ficha" id="7" src="img/back.jpg">
+        </div>
+
+        <div class="thirdRow">
+          <img class="ficha" id="8" src="img/back.jpg">
+          <img class="ficha" id="9" src="img/back.jpg">
+          <img class="ficha" id="10" src="img/back.jpg">
+          <img class="ficha" id="11" src="img/back.jpg">
+        </div>
+                  </div>
+        </div>
+      </div>
+
+    <!--  <div class="back">
+        <img width="180px" height="180px" src="img/back.jpg" alt="">
+      </div>
+    </div>
+-->
+    <p id="Puntaje"></p>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/main2.js">
+      
+    </script>
+  </body>
+</html>
